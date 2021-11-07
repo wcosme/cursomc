@@ -11,7 +11,7 @@ import br.com.wgsolution.cursomc.domain.Categoria;
 import br.com.wgsolution.cursomc.services.CategoriaServiceImpl;
 
 @RestController
-@RequestMapping("/categorias")
+@RequestMapping("/api/v1/categorias")
 public class CategoriaResource {
 	
 	@Autowired
